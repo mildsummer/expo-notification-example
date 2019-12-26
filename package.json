@@ -5,6 +5,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "prettier": "prettier --write 'App.js'",
     "eject": "expo eject"
   },
   "dependencies": {
@@ -22,7 +23,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "babel-preset-expo": "~8.0.0"
+    "babel-preset-expo": "~8.0.0",
+    "prettier": "^1.19.1"
   },
   "private": true
 }
