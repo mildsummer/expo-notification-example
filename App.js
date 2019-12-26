@@ -34,7 +34,7 @@ class Top extends Component {
     }
     const token = await Notifications.getExpoPushTokenAsync();
 
-    console.log("[EXPO NOTIFICATION TOKEN]", token);
+    console.log("[EXPO PUSH TOKEN]", token);
     console.log(
       `Try running the command "node pushNotification.js ${
         token.match(/\[(.+)]/)[1]
